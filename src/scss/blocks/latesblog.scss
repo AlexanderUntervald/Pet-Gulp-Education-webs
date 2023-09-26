@@ -1,0 +1,96 @@
+.lates__blog-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+    .blog__box-title{
+        margin-bottom: 30px;
+    }
+
+    
+    .blog__box-cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+     
+        
+        
+        .blog__box-card{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 8px; 
+            border: 1px solid #808080;
+            text-align: center;
+            
+
+            
+        .box__card-img {  
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .box__card-data { 
+            color:  #808080; 
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        .box__card-title {
+            font-family: Rubik;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.2;          
+            margin-bottom: 10px;
+            color: #1C3554;
+            max-width: 300px;
+        }
+        .box__card--text {
+            color:  #808080; 
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        .box__card-link {
+            color: #F72585;
+            font-family: Montserrat SemiBold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1,2;
+            margin-bottom: 10px;
+        }
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px){
+    .blog__box-cards{
+       flex-wrap: wrap;
+      
+    }
+}

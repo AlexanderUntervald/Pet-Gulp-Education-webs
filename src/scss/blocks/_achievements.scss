@@ -1,0 +1,47 @@
+.achievements__box{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-bottom: 50px;
+ .achievements__box-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .box__item-count{
+        font-family: Rubik;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #1C3554;
+    }
+    .box__item-text{
+        font-family: Rubik;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+ }
+}
+
+@media(max-width: 627px){
+    .achievements__box{
+        flex-wrap: wrap;
+        .achievements__box-item{
+            flex: 1;
+            min-width: calc(50% - 20px);  
+            box-sizing: border-box;
+            gap: 5px;
+            margin-bottom: 40px;
+            .box__item-count{ 
+                font-size: 26px; 
+            }
+            .box__item-text{ 
+                font-size: 16px; 
+            }
+        }
+    }
+
+}

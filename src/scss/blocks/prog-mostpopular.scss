@@ -1,0 +1,98 @@
+
+.programming__course-box{
+    margin-bottom: 50px;
+    position: relative;
+    padding: 40px;
+    .course__box-title{
+        font-family: Rubik;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #1C3554;
+        margin-bottom: 30px;
+       
+    }
+    
+    .programming__button-prev,
+    .programming__button-next{
+        width: 54px;
+        height: 54px;
+        cursor: pointer; 
+        position: absolute;
+        z-index: 999999999999;
+    }
+    .programming__button-prev{
+        top: 90%;
+        left: 32%;    }
+    .programming__button-next{
+        top: 90%;
+        left: 63%;
+    }
+   
+
+    .gallery__box--programming{
+        margin-bottom: 50px; 
+
+    
+    }
+
+    .gallery__box--programming img{
+        max-height: 302px;
+     }
+}
+
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  @media(max-width: 879px){
+    .programming__course-box{
+
+
+        .programming__button-prev{
+            top: 89%;
+            left: 7%;    }
+        .programming__button-next{
+            top: 89%;
+            left: 80%;
+        }
+    }
+
+
+
+}
+
+
+  @media(max-width: 450px){
+    .gallery__item img { 
+        max-height: 310px; 
+    }
+
+
+}
+
+
+
+
